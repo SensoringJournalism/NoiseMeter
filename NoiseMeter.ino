@@ -1,5 +1,10 @@
 /*
-  Noise meter datalogger
+ Noise Meter Datalogger
+  
+ Matt Waite | Sensoring Journalism 2013
+  
+ This is highly, highly derivative of the work of Tom Igoe and his datalogger example code.
+  
  
  This sketch takes input from one analog sensor and writes the values 
  to an SD card using the SD library.
@@ -8,8 +13,6 @@
  * output wire from sensor on analog pin 0
  ** CS - pin 4
  
-This is highly, highly derivative of the work of Tom Igoe and his datalogger example code.
- 	 
  */
 
 #include <SD.h>
